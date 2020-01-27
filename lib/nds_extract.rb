@@ -20,10 +20,8 @@ require 'pp'
   # Be sure to return the result at the end!
 
 def directors_totals(nds)
-  
   director_gross = {}
   d_counter = 0
-  
   while d_counter < directors_database.count do
     total_gross = 0
     m_counter = 0
